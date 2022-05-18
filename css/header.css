@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 0px 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    padding: 30px 30px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .navbar{
@@ -27,7 +27,7 @@
 }
 
 .btn-especial{
-    color:aquamarine;
-    border-right: solid 2px aquamarine;
+    color:#00F57F;
+    border-right: solid 2px #00F57F;
     padding-right: 10px;    
 }
