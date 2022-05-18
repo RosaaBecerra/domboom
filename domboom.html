@@ -4,42 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/stylo.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
     <style></style>
 </head>
 
 <body>
-<header class="header">
-    <img class="logo"src="./img/logo.png" alt="logodomboom">
-    <nav class="navbar">
-        <a href="#Premium">Premium</a>
-        <a href="#New">Help</a>
-        <a href="#Download">Download</a>
-        <a href="#Signup"><span>Sign up</span></a>
-        <a href="#Login">Log in</a>
-    </nav>
-       
-</header>
+  <div class="container">
+     <header class="header">
+        <img class="logo"src="./img/logo.png" alt="logodomboom">
+        <nav class="navbar">
+           <ul>
+             <li class="navbar-btn">Premium</li>
+             <li class="navbar-btn">Help</li>
+             <li class="navbar-btn">Download</li>
+             <li class="navbar-btn btn-especial">Sign Up</li>
+             <li class="navbar-btn">Log In</li>
+           </ul>
+        </nav>
+     </header>
 
-<main> 
-   <div class="music">
-      <p class="everyone">Music for everyone.</p>
-      <p class="millions">Millions of songs. No credit card needed.</p>
-      <nav>
-        <a href="#">Hit the</a> 
-      </nav>  
-    </div> 
+     <main class="centro">
+          <div class="centro-text">
+              <h1>Music for everyone</h1>
+              <p>Millions of songs. No credit card needed</p>
+              <button></button>
+         </div>
+         <div class="centro-drumkit"> 
+               <img class="drumkit"src="./img/drumkit.png" alt="imágendrumkit">
+               <button class="btn-small"></button>
+               <button class="btn-medium"></button>
+               <button class="btn-big"></button>
+      </div>
+    </main>
 
-      <img class="drumkit"src="./img/drumkit.png" alt="imagendrumkit">
-
-</main>
-
-<footer class="footer">
-    <p>Try premium free for 1 month</p>
-    <p>Play millions of songs ad-free, on-demand, and offline.</p>
-    <a href="#">SEE PRICING</a>
-</footer>
+    <section class="seepricing">
+           <h2>Try premium free for 1 month</h2>
+           <p>Play millions of songs ad-free, on-demand, and offline</p>
+           <button>See Pricing</button>
+    </section>
 
 </body>
 </html>

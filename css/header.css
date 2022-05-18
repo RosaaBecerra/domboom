@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.navbar{
+    width: 50%;
+}
+
+.navbar ul{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar-btn{
+    margin: 10px;
+    color: white;
+    font-size: 0.8em;
+}
+
+.btn-especial{
+    color:aquamarine;
+    border-right: solid 2px aquamarine;
+    padding-right: 10px;    
+}
