@@ -65,9 +65,9 @@ span{
 .drumkit{
     display: flex;
     justify-content: right;
-    width: 700px;
+    width: 695px;
     height: 481px;
-    margin-left: 50%;
+    margin-left: 50%;  
     margin-top: -2%;
 }
 
