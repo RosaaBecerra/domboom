@@ -1,3 +1,10 @@
-.h1{
-    color: white;
+.drumkit.png{
+    display: flex;
+    align-items:center; 
+    width: 100px;
+    justify-content:right;
+
+
+
+    
 }
