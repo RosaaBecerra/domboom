@@ -46,13 +46,11 @@ span{
 
 
 .music{
-    width: 20%;
-    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    flex-shrink: 1;
-    flex-grow: 1;
+    margin-right: 25px;
+    margin-left: 100px;
 }
 
 .everyone{
@@ -67,6 +65,10 @@ span{
 .drumkit{
     display: flex;
     justify-content: right;
+    width: 700px;
+    height: 481px;
+    margin-left: 50%;
+    margin-top: -2%;
 }
 
 .footer{
@@ -75,7 +77,5 @@ span{
     align-items: center;
     flex-direction: column;
 }
-
-
    
 
