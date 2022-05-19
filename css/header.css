@@ -31,3 +31,41 @@
     border-right: solid 2px #00F57F;
     padding-right: 10px;    
 }
+
+.btn-burger{
+    display: none;
+}
+
+@media (max-width: 500px) {
+
+    .navbar{
+        display: none;
+    }
+    .header{
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-burger{
+        display:flex;
+        justify-content:flex-end;
+        padding: 10px;
+        width: 100%;  
+        
+    }
+
+    .btn-burger button{
+        background-color: #00F57F;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+    }
+
+    .logo{
+        width: 50%;
+
+    }
+}
+
