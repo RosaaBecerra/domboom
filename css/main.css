@@ -50,10 +50,48 @@ body{
 }
 
 .drumkit{
-    display: relative;
+    display:flex;
+    position:relative;
     width: 100%;
     height: auto;
    }
+
+.btn-1{
+    position: absolute;
+    
+}
+
+.btn-2{
+    position: absolute;
+}
+
+.btn-3{
+    position: absolute;
+}
+
+.btn-4{
+    position: absolute;
+}
+
+.btn-5{
+    position: absolute;
+}
+
+.btn-6{
+    position: absolute;
+}
+
+.btn-7{
+    position: absolute;
+}
+
+.btn-8{
+    position: absolute;
+}
+
+
+
+
 
 .seepricing{
     display: flex;
