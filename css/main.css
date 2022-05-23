@@ -47,51 +47,104 @@ body{
 }
 .centro-drumkit{
     width: 50%;
-}
+    position: relative;
+   }
 
 .drumkit{
-    display:flex;
-    position:relative;
+    position: relative;
     width: 100%;
     height: auto;
+    z-index: 1;
    }
 
 .btn-1{
     position: absolute;
-    
+    background-color: red;
+    border-radius: 50%;
+    width: 16%;
+    height: 22%;
+    z-index: 2;
+    top: 5%;
+    left: 3%;
 }
 
 .btn-2{
     position: absolute;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 16%;
+    height: 22%;
+    z-index: 2;
+    top: 5%;
+    right: 3%;
 }
 
 .btn-3{
     position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 16%;
+    height: 22%;
+    z-index: 2;
+    top: 28%;
+    left: 9%;
 }
 
 .btn-4{
     position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 16%;
+    height: 22%;
+    z-index: 2;
+    top: 28%;
+    right: 9%;
 }
 
 .btn-5{
     position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 22%;
+    height: 32%;
+    z-index: 2;
+    top: 15%;
+    left: 28%;
 }
 
 .btn-6{
-    position: absolute;
+    position: absolute; 
+    background-color: red;
+    border-radius: 50%;
+    width: 22%;
+    height: 32%;
+    z-index: 2;
+    top: 15%;
+    right: 28%;
 }
 
 .btn-7{
     position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 21%;
+    height: 30%;
+    z-index: 2;
+    top: 51%;
+    left: 16%;
 }
 
 .btn-8{
     position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    width: 21%;
+    height: 30%;
+    z-index: 2;
+    top: 51%;
+    right: 16%;
 }
-
-
-
-
 
 .seepricing{
     display: flex;
