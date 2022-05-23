@@ -59,91 +59,131 @@ body{
 
 .btn-1{
     position: absolute;
-    background-color: red;
+    background-color: transparent;
+    cursor:pointer;
     border-radius: 50%;
-    width: 16%;
-    height: 22%;
+    border-width: 0cm;
+    width: 15%;
+    height: 20%;
     z-index: 2;
     top: 5%;
     left: 3%;
 }
+.btn-1:hover{
+    background-color:#00f57f;
+}
 
 .btn-2{
     position: absolute;
-    position: absolute;
-    background-color: red;
+    background-color: transparent;
+    cursor:pointer;
     border-radius: 50%;
-    width: 16%;
-    height: 22%;
+    border-width: 0cm;
+    width: 15%;
+    height: 20%;
     z-index: 2;
     top: 5%;
     right: 3%;
 }
 
+.btn-2:hover{
+    background-color:#00f57f;
+}
+
 .btn-3{
     position: absolute;
-    background-color: red;
+    background-color: transparent;
+    cursor:pointer;
     border-radius: 50%;
+    border-width: 0cm;
     width: 16%;
     height: 22%;
     z-index: 2;
-    top: 28%;
+    top: 25%;
     left: 9%;
+}
+
+.btn-3:hover{
+    background-color:#00f57f;
 }
 
 .btn-4{
     position: absolute;
-    background-color: red;
+    background-color: transparent;
+    cursor:pointer;
     border-radius: 50%;
+    border-width: 0cm;
     width: 16%;
     height: 22%;
     z-index: 2;
-    top: 28%;
-    right: 9%;
+    top: 25%;
+    right: 10%;
 }
 
+.btn-4:hover{
+    background-color:#00f57f;
+}
 .btn-5{
     position: absolute;
-    background-color: red;
+    background-color: transparent;
+    cursor:pointer;
     border-radius: 50%;
+    border-width: 0cm;
     width: 22%;
-    height: 32%;
+    height: 29%;
     z-index: 2;
-    top: 15%;
-    left: 28%;
+    top: 14%;
+    left: 27%;
+}
+
+.btn-5:hover{
+    background-color:#00f57f;
 }
 
 .btn-6{
-    position: absolute; 
-    background-color: red;
+    position:absolute;
+    background-color: transparent;
+    cursor:pointer;
     border-radius: 50%;
+    border-width: 0cm;
     width: 22%;
-    height: 32%;
+    height: 29%;
     z-index: 2;
     top: 15%;
-    right: 28%;
+    right: 27%;
 }
-
+.btn-6:hover{
+    background-color:#00f57f;
+}
 .btn-7{
     position: absolute;
-    background-color: red;
+    background-color: transparent;
+    cursor:pointer;
     border-radius: 50%;
+    border-width: 0cm;
     width: 21%;
     height: 30%;
     z-index: 2;
     top: 51%;
-    left: 16%;
+    left: 15%;
 }
-
+.btn-7:hover{
+    background-color:#00f57f;
+}
 .btn-8{
     position: absolute;
-    background-color: red;
+    background-color: transparent;
+    cursor:pointer;
     border-radius: 50%;
+    border-width: 0cm;
     width: 21%;
     height: 30%;
     z-index: 2;
     top: 51%;
     right: 16%;
+}
+.btn-8:hover{
+    background-color:#00f57f;
 }
 
 .seepricing{
