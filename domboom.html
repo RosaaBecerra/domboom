@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="./jv/jv.js"></script>
     <title>Document</title>
-    <style></style>
+   
 </head>
 
 <body>
@@ -34,17 +35,19 @@
               <p class="Millions"><span>Millions of songs. No credit card needed</span></p>
               <button class="btn-Hitthe">Hit the</button>
          </div>
+
          <div class="centro-drumkit"> 
+
             <img class="drumkit"src="./img/drumkit.png" alt="imágendrumkit">
-                  <button class="btn-1" src="./audio/bombo (1).wav"></button>
-                  <button class="btn-2" src="./audio/crash.wav"></button>
-                  <button class="btn-3" src="./audio/hit-hat.wav"></button>
-                  <button class="btn-4" src="./audio/redoblante.wav"></button>
-                  <button class="btn-5" src="./audio/tom1.wav"></button>
-                  <button class="btn-6" src="./audio/tom2.wav"></button>
-                  <button class="btn-7" src="./audio/tom3.wav"></button>
-                  <button class="btn-8" src="./audio/tom4.wav"></button>
-                         
+                  <button class="btn-1" id="btn-1" onclick="playAudio('./audio/bombo.wav')"></button>
+                  <button class="btn-2" id="btn-2" onclick="playAudio('./audio/crash.wav')"></button>
+                  <button class="btn-3" id="btn-3" onclick="playAudio('./audio/hit-hat')"></button>
+                  <button class="btn-4" id="btn-4" onclick="playAudio('./audio/redoblante')"></button>
+                  <button class="btn-5" id="btn-5" onclick="playAudio('./audio/tom1')"></button>
+                  <button class="btn-6" id="btn-6" onclick="playAudio('./audio/tom2')"></button>
+                  <button class="btn-7" id="btn-7" onclick="playAudio('./audio/tom3')"></button>
+                  <button class="btn-8" id="btn-8" onclick="playAudio('./audio/tom4')"></button>    
+
          </div>
     </main>
 

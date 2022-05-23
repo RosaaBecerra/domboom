@@ -99,7 +99,7 @@ body{
     width: 16%;
     height: 22%;
     z-index: 2;
-    top: 25%;
+    top: 28%;
     left: 9%;
 }
 
@@ -116,8 +116,8 @@ body{
     width: 16%;
     height: 22%;
     z-index: 2;
-    top: 25%;
-    right: 10%;
+    top: 28%;
+    right:10%;
 }
 
 .btn-4:hover{
@@ -130,9 +130,9 @@ body{
     border-radius: 50%;
     border-width: 0cm;
     width: 22%;
-    height: 29%;
+    height: 30%;
     z-index: 2;
-    top: 14%;
+    top: 15%;
     left: 27%;
 }
 
@@ -147,7 +147,7 @@ body{
     border-radius: 50%;
     border-width: 0cm;
     width: 22%;
-    height: 29%;
+    height: 30%;
     z-index: 2;
     top: 15%;
     right: 27%;
