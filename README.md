@@ -1,5 +1,4 @@
-﻿# domboom
-//![logo](./img/logo.png)
+![logo](./img/logo.png)
 
 
 ## Tabla de Contenidos
